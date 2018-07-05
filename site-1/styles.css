@@ -1,0 +1,60 @@
+body{
+    /* overflow: hidden; */
+}
+.menu-nav{
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+}
+.img-icon-menu{
+    width: 25px;
+    height: 25px;
+}
+.img-size-icon {
+width: 200px;
+height: 200px;
+}
+
+.vertical-middle {
+position: relative;
+display: inline-block;
+top: 50%;
+margin-top: -50%
+}
+
+#map {
+/* width: 100%; */
+height: 200px;
+}
+
+.font-13 {
+font-size: 13px;
+}
+.font-10 {
+font-size: 10px;
+}
+
+.img-border{
+    border-radius: 100%;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    /* background-image: url(assets/images/chupito.png) */
+    /* min-height: 100px !important;
+    min-width: 100px !important; */
+}
+.img-circle{
+    /* border-radius: 100%; */
+    
+    width:  100px;
+    height: 100px;
+    /* border: solid 1px red; */
+    /* float: right; */
+    border-radius: 100%;
+    overflow: hidden;
+}
+.img-circle > img{
+    /* width: 100%; */
+}
+
